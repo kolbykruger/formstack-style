@@ -30,6 +30,9 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 /*Formstack*/
 .fsPage {max-width: 500px;}
 .fsBody * {font-family: inherit !important; font-size: inherit !important; color: inherit !important; line-height: inherit !important;}
+.fsBody .fsForm .fsSection:not(:last-of-type) {border-bottom: 1px solid #ccc; padding-bottom: 3em; margin-bottom: 3em;}
+.fsBody .fsForm .fsSectionHeader {background: transparent;}
+.fsBody .fsForm .fsSectionHeading {font-size: 2.8rem !important; font-weight: 600;}
 .fsBody .fsForm .fsCell {padding: 0 !important; margin: 1.5em 0 !important;}
 .fsBody .fsForm .fsLabel {display: block; margin: 0.25em 0;}
 .fsBody .fsForm .fsRequiredMarker {font-weight: 600; margin-left: 0.25em; font-size: 1.2rem !important; vertical-align: text-top; opacity: 0.5;}
@@ -46,7 +49,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm input[type=submit] {transition: 250ms ease-in-out; width: auto; border: none; font-size: inherit !important; -webkit-appearance: none; -moz-appearance: none; cursor: pointer;}
 .fsBody .fsForm fieldset {margin: 2rem 0 0.25em; border: none;}
 .fsBody .fsForm fieldset .fsField {width: auto; margin-right: 0.5em;}
-.fsBody .fsForm .fsOptionLabel {display: flex; align-items: center; margin: 0.5em 0;}
+.fsBody .fsForm .fsOptionLabel {display: flex; align-items: center; margin: 0.5em;}
 .fsBody .fsForm .fieldset-content {margin-left: 0.5em;}
 .fsBody .fsForm .fsCreditcardNumberField-icon {display: none;}
 .fsBody .fsForm .fsFieldAddress2 {margin-top: 0.5em !important;}
