@@ -52,7 +52,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm .fsFieldAddress2 {margin-top: 0.5em !important;}
 .fsBody .fsForm table {width: 100%;}
 .fsBody .fsForm table th, .fsBody .fsForm table .fsMatrixLabelRow.fsMatrixLabelRow {text-align: left;}
-.fsBody .fsForm table td, .fsBody .fsForm table .fsMatrixLabel {text-align: center; padding: 0.25em 0;}
+.fsBody .fsForm table td, .fsBody .fsForm table .fsMatrixLabel {text-align: center; padding: 0.25em 0; font-weight: inherit;}
 .fsBody .fsForm .fsCell[fs-field-type="address"] .fsSubFieldGroup {display: flex; align-items: center; flex-flow: row wrap; margin: 0 -0.5em;}
 .fsBody .fsForm .fsCell[fs-field-type="address"] .fsSubFieldGroup > div {flex: 1; margin: 0.5em; min-width: 150px;}
 .fsBody .fsForm .fsCell[fs-field-type="datetime"] .fieldset-content, .fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr {display: flex; flex-flow: row wrap; width: 100%; margin: 0.5em 0 0;}
