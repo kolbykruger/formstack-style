@@ -55,10 +55,11 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm .fsFieldAddress2 {margin-top: 0.5em !important;}
 .fsBody .fsForm .fsCell[fs-field-type="address"] .fsSubFieldGroup {display: flex; align-items: center; flex-flow: row wrap; margin: 0 -0.5em;}
 .fsBody .fsForm .fsCell[fs-field-type="address"] .fsSubFieldGroup > div {flex: 1; margin: 0.5em; min-width: 150px;}
-.fsBody .fsForm .fsCell[fs-field-type="datetime"] .fieldset-content {display: flex; flex-flow: row wrap; width: 100%; margin: 0;}
-.fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr {display: flex; width: 100%; margin-top: 0.5em;}
+.fsBody .fsForm .fsCell[fs-field-type="datetime"] .fieldset-content,
+.fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr {display: flex; flex-flow: row wrap; width: 100%; margin: 0.5em 0 0;}
 .fsBody .fsForm .fsCell[fs-field-type="datetime"] .fieldset-content > select,
-.fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr > select {flex: 1; min-width: 150px;}
+.fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr > select {flex: 1; min-width: 125px;}
+.fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr span {display: none;}
 .fsBody .fsForm .fsCell[fs-field-type="datetime"] .ui-datepicker-trigger {display: none;}
 .fsBody .fsForm .fsError {display: block; width: 100%; margin: 1em 0; padding: 1em;}
 .fsBody .fsForm .fsValidationError {background: none;}
