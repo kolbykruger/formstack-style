@@ -55,7 +55,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm table th, .fsBody .fsForm table .fsMatrixLabelRow.fsMatrixLabelRow {text-align: left;}
 .fsBody .fsForm table td, .fsBody .fsForm table .fsMatrixLabel {text-align: center; padding: 0.25em 0; font-weight: inherit;}
 .fsBody .fsForm .fsField[type="checkbox"]::before,
-.fsBody .fsForm .fsField[type="checkbox"]::after {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.fsBody .fsForm .fsField[type="checkbox"]::after {content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .fsBody .fsForm .fsField[type="checkbox"]::before {background: transparent;}
 .fsBody .fsForm .fsField[type="checkbox"]::after {content: '\f00c'; font-family: 'Font Awesome 5 Pro' !important;  opacity: 0;}
 .fsBody .fsForm .fsCell[fs-field-type="address"] .fsSubFieldGroup {display: flex; align-items: center; flex-flow: row wrap; margin: 0 -0.5em;}
