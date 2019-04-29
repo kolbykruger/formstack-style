@@ -26,8 +26,9 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm input[type=submit]{background: #ef4438 !important; color: #fff !important; padding: 1em 1.5em !important; border-radius: 0.25em !important;}
 .fsBody .fsForm input[type=submit]:hover{background: #E22012 !important;}
 .fsBody .fsForm .fsField[type="checkbox"]:checked,
+.fsBody .fsForm .fsField[type="radio"]:checked,
 .fsBody .fsForm .fsField[type="checkbox"]:checked::after {color: #ef4438 !important; opacity: 1; border-color: #ef4438 !important;}
-.fsBody .fsForm .fsField[type="radio"]:checked::after {background: #ef4438 !important; opacity: 1; border-color: #ef4438 !important;}
+.fsBody .fsForm .fsField[type="radio"]:checked::after {background: #ef4438 !important; opacity: 1;}
 .fsBody .fsForm .fsField:focus {border-color: #ef4438 !important; background: #fbfbfb !important; outline: none;}
 
 /*Formstack*/
