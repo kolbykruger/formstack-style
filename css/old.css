@@ -1,0 +1,50 @@
+/*Formstack Colors*/
+.fsBody .fsForm input[type=submit]{background: #ef4438 !important; -webkit-appearance: none; transition: 250ms ease !important;}
+.fsBody .fsForm input[type=submit]:hover{background: #E22012 !important;}
+.fsBody .fsForm input:focus,.fsBody .fsForm textarea:focus,.fsBody .fsForm select:focus{border: #ef4438 1px solid!important; outline: none; box-shadow: 0 0 20px rgba(0,0,0,.1) inset;}
+
+/*Formstack*/
+.fsBody{overflow: hidden; max-width: 600px;}
+.fsBody .fsForm{background: none !important; width: 100%; max-width: 500px; margin: 0 !important;}
+.fsBody .fsForm input{font-family: inherit !important; outline: none; border-radius: 3px; border: #c6c6c6 1px solid!important;background: #fff!important;font-size: 14px !important;padding: 5px 8px !important; width: 100%; max-width: none !important;}
+.fsBody .fsForm input[type=radio]{width: auto;}
+.fsBody .fsForm input[type=checkbox]{width: auto;}
+.fsBody .fsForm label.fsOptionLabel.horizontal {padding: 5px 0 0 10px; cursor: pointer; font-size: 13px !important;}
+.fsBody .fsForm label.fsOptionLabel.vertical {padding: 5px 0 0 10px; display: block; cursor: pointer; font-size: 13px !important;}
+.fsBody .fsForm label.fsOptionLabel input {margin: 2px 3px 0 0; display: inline-block; border-radius: 2px; vertical-align: top !important; }
+.fsBody .fsForm select{-webkit-appearance: none; cursor: pointer; font-family: inherit !important; box-sizing: border-box; border: #c6c6c6 1px solid!important;background: #fff!important;font-size: 14px !important;padding: 5px 8px !important; width: 100%; max-width: none !important;}
+.fsBody .fsForm textarea{font-family: inherit !important; border-radius: 3px; box-sizing: border-box; border: #c6c6c6 1px solid!important;background: #fff!important;font-size: 14px !important;padding: 5px 8px !important; width: 100%; max-width: none !important;}
+.fsBody .fsForm .fsLabel{text-transform: uppercase !important; font-size: 1.3rem !important; line-height: auto!important; letter-spacing: 1px !important; color: rgba(0,0,0,.7) !important; font-weight: 400 !important; display: block !important;}
+.fsBody .fsForm .fsOptionLabel {font-family: inherit !important; font-size: inherit !important;}
+.fsBody .fsForm .fsRequiredMarker {padding-left: 2px !important; color: crimson !important; font-size: 10px !important; margin-top: -5px;}
+.fsBody .fsForm .fsSection {margin: 0 0 40px 0;}
+.fsBody .fsForm .fsSectionHeader {margin: 0 !important; padding: 0 !important;}
+.fsBody .fsForm .fsSupporting{font-weight: 400 !important; color: rgba(0,0,0,.4) !important; font-size: 1.2rem;}
+.fsBody .fsForm .fsPagination {text-align: left !important; margin: 20px 0 0 !important;}
+.fsBody .fsForm .fsSubmit{padding: 0 !important;}
+.fsBody .fsForm .fsCell {padding-top: 0 !important;}
+.fsBody .fsForm .fsCell img {display: inline-block; vertical-align: middle; margin: 0 10px 0 0;}
+.fsBody .fsForm .fsRowBody {padding: 0 !important; margin: 0 0 20px 0;}
+.fsBody .fsForm .fsRow {margin: 0 0 5px 0;} 
+.fsBody .fsForm fieldset {border: none !important;}
+.fsBody .fsForm .fsValidationError{background: none; }
+.fsBody .fsForm .fsValidationError input{color: red !important; border: red 1px solid!important;}
+.fsBody .fsForm .fsValidationError .fsLabel {padding-left: 0 !important; background-image: none !important;}
+.fsBody .fsForm .fsError {margin: 0 auto !important; border-radius: 0 !important; width: 100%; max-width: 500px; background-color: rgba(255, 0, 0, 0.5) !important;}
+.fsBody .fsForm input[type=submit]{border: none!important;cursor: pointer!important;color: #fff !important;padding: 15px 20px!important; width: 100%; max-width: 200px!important; border-radius: 3px !important;}
+.fsBody .fsForm span{display: inline-block; vertical-align: middle;}
+.fsBody .fsForm .fieldset-content select.fsField {display: inline-block !important; margin: 0 5px 0 0 !important; width: 65px !important;}
+.fsBody .fsForm .fsSubFieldGroup {display: flex; margin: 20px 0 5px 0 !important; flex-flow: row wrap;}
+.fsBody .fsForm div[fs-field-type="name"] .fsSubFieldGroup {margin: 0 0 5px 0 !important;}
+.fsBody .fsForm .fsSubField.fsFieldCity {width: 33.333%;}
+.fsBody .fsForm .fsSubField.fsFieldState {width: calc(33.333% - 20px); margin: 0 10px;}
+.fsBody .fsForm .fsSubField.fsFieldZip {width: 33.333%;}
+.fsBody .fsForm .fsCreditCardLogo {display: inline-block; margin: 3px 0;}
+.fsBody .fsForm .fsSubField.fsNameFirst {margin: 0 10px 0 0;}
+.fsBody .fsForm .fsLabel, .fsBody .fsForm .fsOptionLabel, .fsBody .fsForm .fsMatrix th, .fsBody .fsForm .fsMatrixLabel {font-family: inherit !important;}
+
+    @media (max-width: 640px) {
+    .fsBody .fsForm .fsSubField.fsFieldCity {width: 100%; margin: 0 0 5px;}
+    .fsBody .fsForm .fsSubField.fsFieldState {width: calc(50% - 10px); margin: 0 10px 0 0;}
+    .fsBody .fsForm .fsSubField.fsFieldZip {width: 50%;}
+    }
