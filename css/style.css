@@ -52,7 +52,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody fieldset .fsField {width: auto; margin-right: 0.5em;}
 .fsBody .fsOptionLabel {display: flex; align-items: center; margin: 0.5em;}
 .fsBody .fieldset-content {margin-left: 0.5em;}
-.fsBody .fsCreditcardNumberField-icon {display: none;}
+.fsBody .fsCreditcardNumberField-icon {z-index: 2;}
 .fsBody .fsFieldAddress2 {margin-top: 0.5em !important;}
 .fsBody table {width: 100%;}
 .fsBody table th, .fsBody .fsForm table .fsMatrixLabelRow.fsMatrixLabelRow {text-align: left;}
