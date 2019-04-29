@@ -66,6 +66,8 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsField::after {content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0;}
 .fsBody .fsField[type="radio"],
 .fsBody .fsField[type="checkbox"] {cursor: pointer;}
+.fsBody .fsField[type="radio"]::after,
+.fsBody .fsField[type="checkbox"]::after {opacity: 0;}
 .fsBody .fsField[type="radio"]:checked::after,
 .fsBody .fsField[type="checkbox"]:checked::after {opacity: 1;}
 .fsBody .fsField[type="radio"]:hover::after,
