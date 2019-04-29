@@ -36,7 +36,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm .fsCell {padding: 0 !important; margin: 2em 0 !important;}
 .fsBody .fsForm .fsLabel {display: block; margin: 0.5em 0; line-height: 1 !important;}
 .fsBody .fsForm .fsRequiredMarker {font-weight: 600; margin-left: 0.25em; font-size: 1.2rem !important; vertical-align: text-top; opacity: 0.5;}
-.fsBody .fsForm .fsField, .fsBody .fsForm input, .fsBody .fsForm textarea, .fsBody .fsForm select {box-shadow: none; width: 100%; max-width: none !important; padding: 1rem !important; background: #fff; border: 1px solid; border-color: #dee2e6 !important; border-radius: 0.25em;}
+.fsBody .fsForm .fsField, .fsBody .fsForm input, .fsBody .fsForm textarea, .fsBody .fsForm select {box-shadow: none; width: 100%; max-width: none !important; padding: 1rem !important; background: #fff; border: 1px solid; border-color: #dee2e6 !important; border-radius: 0.25em; -webkit-appearance: none; -moz-appearance: none;}
 .fsBody .fsForm textarea {resize: vertical;}
 .fsBody .fsForm .fsSubFieldGroup {margin-top: 0.5em;}
 .fsBody .fsForm .fsSubFieldGroup .fsSupporting {font-size: 1.4rem !important; margin-bottom: 0.5em; line-height: 1 !important;}
