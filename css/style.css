@@ -25,7 +25,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 /*Formstack Colors*/
 .fsBody .fsForm input[type=submit]{background: #ef4438 !important; color: #fff !important; padding: 1em 1.5em !important; border-radius: 0.25em !important;}
 .fsBody .fsForm input[type=submit]:hover{background: #E22012 !important;}
-.fsBody .fsForm .fsField:checked {background: #ef4438 !important;}
+.fsBody .fsForm .fsField:checked::before {background: #ef4438 !important;}
 .fsBody .fsForm .fsField:focus {border-color: #ef4438 !important; background: #fbfbfb !important; outline: none;}
 
 /*Formstack*/
@@ -37,8 +37,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm .fsCell {padding: 0 !important; margin: 2em 0 !important;}
 .fsBody .fsForm .fsLabel {display: block; margin: 0.5em 0; line-height: 1 !important;}
 .fsBody .fsForm .fsRequiredMarker {font-weight: 600; margin-left: 0.25em; font-size: 1.2rem !important; vertical-align: text-top; opacity: 0.5;}
-.fsBody .fsForm .fsField, .fsBody .fsForm input, .fsBody .fsForm textarea, .fsBody .fsForm select {box-shadow: none; width: 100%; max-width: none !important; padding: 1rem !important; background: #fff; border: 1px solid; border-color: #dee2e6 !important; border-radius: 0.25em; -webkit-appearance: none; -moz-appearance: none;}
-.fsBody .fsForm .fsField::after {content: '\f00c'; font-family: 'Font Awesome 5 Pro';}
+.fsBody .fsForm .fsField, .fsBody .fsForm input, .fsBody .fsForm textarea, .fsBody .fsForm select {position: relative; box-shadow: none; width: 100%; max-width: none !important; padding: 1rem !important; background: #fff; border: 1px solid; border-color: #dee2e6 !important; border-radius: 0.25em; -webkit-appearance: none; -moz-appearance: none;}
 .fsBody .fsForm textarea {resize: vertical;}
 .fsBody .fsForm .fsSubFieldGroup {margin-top: 0.5em;}
 .fsBody .fsForm .fsSubFieldGroup .fsSupporting {font-size: 1.4rem !important; margin-bottom: 0.5em; line-height: 1 !important;}
@@ -55,6 +54,10 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsForm table {width: 100%;}
 .fsBody .fsForm table th, .fsBody .fsForm table .fsMatrixLabelRow.fsMatrixLabelRow {text-align: left;}
 .fsBody .fsForm table td, .fsBody .fsForm table .fsMatrixLabel {text-align: center; padding: 0.25em 0; font-weight: inherit;}
+.fsBody .fsForm .fsField[type="checkbox"]::before,
+.fsBody .fsForm .fsField[type="checkbox"]::after {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.fsBody .fsForm .fsField[type="checkbox"]::before {background: transparent;}
+.fsBody .fsForm .fsField[type="checkbox"]::after {content: '\f00c'; font-family: 'Font Awesome 5 Pro' !important;}
 .fsBody .fsForm .fsCell[fs-field-type="address"] .fsSubFieldGroup {display: flex; align-items: center; flex-flow: row wrap; margin: 0 -0.5em;}
 .fsBody .fsForm .fsCell[fs-field-type="address"] .fsSubFieldGroup > div {flex: 1; margin: 0.5em; min-width: 150px;}
 .fsBody .fsForm .fsCell[fs-field-type="datetime"] .fieldset-content, .fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr {display: flex; flex-flow: row wrap; width: 100%; margin: 0.5em 0 0;}
