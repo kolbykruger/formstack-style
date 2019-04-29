@@ -1,3 +1,26 @@
+/*TINY MCE*/
+body#tinymce {padding: 8px; background: #fff; min-height: 100vh;}
+
+/*Base*/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display: block;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html{font-size: 62.5%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility;}
+html[lang="en"]{opacity:0;}
+html.wf-active,html.wf-inactive{opacity: 1; transition: opacity .4s ease-out;}
+body{color: rgba(0,0,0,.8); background: #fff; font-family: 'Open Sans', sans-serif; font-size: 1.6rem; display: flex; justify-content: center;}
+p{font-size: 1.6rem; margin: 0 0 16px 0; font-weight: 400; line-height: 1.6;}
+p:last-of-type{margin: 0;}
+a{color: #ef4538;}
+ul{font-size: 1.6rem; padding: 0 0 22px 30px; font-weight: 400; line-height: 1.6; list-style: outside disc; overflow: hidden;}
+ol{font-size: 1.6rem; padding: 0 0 22px 30px; font-weight:  400; line-height: 1.6; overflow: hidden;}
+li{position: relative;}
+h1{font-size: calc(2.5rem + 1.5vw); margin: 0 0 10px; line-height: 140%; font-weight: 400; display: block; width: 100%;}
+h2{font-size: calc(2.0rem + 1vw); margin: 0 0 10px; line-height: 140%; font-weight: 300; display: block;  width: 100%;}
+h3{font-size: calc(1.8rem + .8vw); margin: 0 0 10px; font-weight: 300; width: 100%;}
+blockquote{width: 80%; max-width:700px; margin: 50px auto; font-style: italic; color: #555; padding: 1.2em 1.2em 1.2em 75px; border-left: 8px solid #ef4538; line-height: 1.6; position: relative; background: #eeeeee;}
+blockquote::before{font-family:Arial; content:"\201C"; color:#ef4538; font-size:4em; position: absolute; left: 10px; top:-10px;}
+img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
+
 /*Formstack Colors*/
 .fsBody .fsForm input[type=submit]{background: #ef4438 !important; -webkit-appearance: none; transition: 250ms ease !important;}
 .fsBody .fsForm input[type=submit]:hover{background: #E22012 !important;}
