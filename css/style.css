@@ -28,6 +28,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 /* DEMO */
 
 /*Formstack Colors*/
+.fsBody .fsForm, .fsForm .fsSpacerRow .fsRowBody {background-color: none !important;}
 .fsBody .fsForm input[type=submit]{background: #ef4438 !important; color: #fff !important; padding: 1em 1.5em !important; border-radius: 0.25em !important;}
 .fsBody .fsForm input[type=submit]:hover{background: #E22012 !important;}
 .fsBody .fsForm .fsField[type="radio"]:checked,
