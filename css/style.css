@@ -28,7 +28,6 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 /* DEMO */
 
 /*Formstack Colors*/
-.fsBody .fsForm, .fsForm .fsSpacerRow .fsRowBody {background-color: none !important;}
 .fsBody .fsForm input[type=submit]{background: #ef4438 !important; color: #fff !important; padding: 1em 1.5em !important; border-radius: 0.25em !important;}
 .fsBody .fsForm input[type=submit]:hover{background: #E22012 !important;}
 .fsBody .fsForm .fsField[type="radio"]:checked,
@@ -46,6 +45,7 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsSectionHeader {background: transparent;}
 .fsBody .fsSectionHeading {font-size: 2.8rem !important; font-weight: 600;}
 .fsBody .fsCell {position: relative; padding: 0 !important; margin: 2em 0 !important;}
+.fsBody .fsForm, .fsForm .fsSpacerRow .fsRowBody {background: none !important;}
 .fsBody .fsLabel {display: block; margin: 0.5em 0; line-height: 1 !important;}
 .fsBody .fsRequiredMarker {font-weight: 600; margin-left: 0.25em; font-size: 1.2rem !important; vertical-align: text-top; opacity: 0.5;}
 .fsBody .fsField, .fsBody input, .fsBody textarea, .fsBody select {position: relative; box-shadow: none; width: 100%; max-width: none !important; padding: 1rem !important; background: #fff; border: 1px solid; border-color: #dee2e6 !important; border-radius: 0.25em; -webkit-appearance: none; -moz-appearance: none;}
@@ -91,6 +91,8 @@ img{max-width: 100%; height: auto; vertical-align: bottom; border: none;}
 .fsBody .fsCell[fs-field-type="datetime"] .fieldset-content > select, .fsBody .fsForm .fsCell[fs-field-type="datetime"] .always-ltr > select {flex: 1; min-width: 125px;}
 .fsBody .fsCell[fs-field-type="datetime"] .always-ltr span {display: none;}
 .fsBody .fsCell[fs-field-type="datetime"] .ui-datepicker-trigger {display: none;}
+.fsBody .fsForm .fsCurrencyPrefix {position: absolute; bottom: 1px; left: 0; z-index: 2; height: 42px; display: flex; align-items: center; justify-content: center; padding: 1em; border-right: 1px solid #dee2e6;}
+.fsBody .fsForm .fsCurrencyPrefix + input[type=number] {padding-left: calc(44px + 0.5em) !important;}
 .fsBody .fsError {width: 100%; margin: 1em 0; padding: 1em;}
 .fsBody .fsValidationError {background: none;}
 .fsBody .fsValidationError input {color: red !important; border: red 1px solid !important;}
